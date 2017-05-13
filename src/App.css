@@ -1,0 +1,17 @@
+.panel {
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    display: flex;
+    width: 500px;
+    height: 70px;
+    transform: translateX(-50%);
+    background: rgba(57, 57, 57, 0.7);
+    justify-content: center;
+}
+
+.map {
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
